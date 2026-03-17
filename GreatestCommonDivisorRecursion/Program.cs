@@ -178,6 +178,12 @@ public class Utility
         }
     }
 
+    /// <summary>
+    /// Calculate the GCD using iteration
+    /// </summary>
+    /// <param name="num1"></param>
+    /// <param name="num2"></param>
+    /// <returns></returns>
     internal static int GreatestCommonDivisorIterative(int num1, int num2)
     {
         int largestMatchingDivisor = 0;
@@ -229,7 +235,7 @@ public class Utility
         else
         {
             // If there are no common elements, print a message to the user
-            Console.WriteLine("No matching values found between the two lists.");
+            Console.WriteLine("These numbers do not have a common divisor.");
         }
 
         // Return the largest common element
